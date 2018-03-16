@@ -1,0 +1,196 @@
+#sticky.stick{
+    position: fixed;
+       top: 0;
+    z-index: 10000;
+    width: 100%;
+    background-color: white;
+}
+
+#sticky.stick body nav{
+    text-align: center;
+}
+
+#sticky.stick nav a{
+ width: auto;
+    text-decoration: none;
+    margin-left: 20px;
+    color: black;
+    
+}
+
+#sticky.stick body nav a:hover{
+    color: dimgray;
+}
+
+#sticky.stick nav{
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+#sticky h3{
+    display: none;
+}
+
+#sticky.stick h3{
+    display: block;
+}
+
+body nav
+{
+    text-align: center;
+    }
+
+body nav a
+{
+ width: auto;
+    text-decoration: none;
+    margin-left: 20px;
+    color: black;
+    }
+
+body nav a:hover
+{
+    color: dimgray;
+    }
+
+nav 
+{ 
+    margin-bottom: 40px;
+    margin-top: 90px;
+    }
+
+
+#copyright
+{
+    float: right;
+        width:35%;
+    }
+
+#social
+{
+    float: left;
+    width: 25%;
+    }
+
+#social img
+{
+    float: right;
+    }
+
+#social img:hover
+{
+    opacity: 0.3;
+        }
+
+footer 
+{ 
+    margin-top: 100px;
+    margin-bottom: 150px;
+    }
+
+.Enclose
+{
+    border-radius: 10px;
+    padding-bottom: 13%;
+    margin-bottom: 1%;
+    box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: white;
+}
+
+main
+{
+    padding: 5%;
+    margin-left: 20%;
+    margin-right: 20%;
+    }
+
+.Blog_Content
+{
+    
+    float: center;
+    width: 100%;
+    display: block;
+    height: auto;
+    padding-top: 5%
+    }
+
+.Blog_Content p
+{
+    padding-bottom: 5%;
+    padding-left: 5%;
+    padding-right:5%;
+    color: black;
+    }
+
+.Button
+{
+    float: right;
+    margin-right: 10%;
+    margin-top: 10px;
+    text-decoration: none;
+    font-family: Hind;
+    color:forestgreen;
+    font-size: 1.2em;
+    }
+
+#Prev
+{
+    float: left;
+    margin-left: 10%;
+    margin-top: 10px;
+    text-decoration: none;
+    font-family: Hind;
+    color:forestgreen;
+    font-size: 1.2em;
+    }
+
+.Button:hover
+{
+    color:darkred;
+    }
+
+.fb-share-button
+{
+    margin-left: 5%;
+    }
+
+.twitter-share-button[style] 
+{ 
+    vertical-align: text-bottom !important; 
+    }
+#disqus_thread{
+    
+    position: relative;
+    width: 90%;
+    padding-left: 5%;
+    padding-top: 5%;
+}
+
+
+
+video#bgvid { 
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    background: url(polina.jpg) no-repeat;
+    background-size: cover; 
+}
+
+@media screen and (max-device-width: 800px) {
+    html {
+         background: url(F5FAFF.png) #000 no-repeat center center fixed;
+        background-color: #f5faff;
+    }
+    #bgvid {
+        display: none;
+    }
+}

@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <link href="webaboutme.css" rel="stylesheet" type="text/css"/>
+      <link rel="shortcut icon" type="image/x-icon" href="1469891777_A.ico" />
+        <meta charset="UTF-8">
+        <title>Aniruddha Chauhan</title>
+    </head>
+    <body style="font-family: 'David Libre', serif; font-size:13px;" bgcolor="#f5faff">
+        
+        <div class="fade">
+            <center><a href="http://www.aniruddhachauhan.com/" style="text-decoration:none"><p style="text-align:center; font-family: 'Marko One', serif; font-size:100px; color:black">Anni</p></a></center><!--Name-->
+            <link href="https://fonts.googleapis.com/css?family=Alegreya+Sans|Arimo|Cormorant+Garamond|Cormorant+Infant|David+Libre|Hind|Josefin+Sans|Josefin+Slab|Lora|Raleway|Rasa|Slabo+27px|Titillium+Web|Work+Sans|Comfortaa|Amatica+SC|Marko+One" rel="stylesheet">
+        </div>
+        
+        
+        <video playsinline autoplay muted loop poster="F5FAFF.png" id="bgvid">
+    <source src="Smoke%20Loop%20-%20YouTube%20(720p).mp4">
+    <source src="Smoke%20Loop%20-%20YouTube%20(720p).mp4" type="video/mp4">
+</video>
+        
+        
+        <div id="stickontop"></div>
+        <div id="sticky">
+            <h3 style="font-family:Arimo"><center>ANNI</center></h3>
+            <nav style="font-family: 'Raleway', sans-serif;">
+            <a href="http://www.aniruddhachauhan.com/index.html" style="color:#3498db">ABOUT ME</a>
+            <a href="http://www.aniruddhachauhan.com/webblog.html" >THOUGHT BUBBLE</a>
+            <a href="http://www.aniruddhachauhan.com/webwatchthis.html">WATCH THIS</a>
+            <a href="http://www.aniruddhachauhan.com/webread.html">READWORTHY</a>
+        </nav>
+            </div>
+        
+        <main>
+        <div id="lf" display:block>
+        <!--This div is for inserting the image on left -->
+            <img src="MainPicCircle.png" height="180px" width="240px" >
+        </div >
+       <!-- <main>-->
+            <div id="content">
+                <p>
+                
+                  Hello, I’m Aniruddha my friends and family call me Anni.<br><br>
+Born and raised in Delhi.<br><br>
+I spend most of my day browsing through web, watching TV shows, Movies, playing games or learning how to code.<br><br>
+Right now I’m pursuing my Bachelors in Computer Engineering.
+Enough with the facts!<br><br>
+I come off as a reclusive person for someone new and try to avoid socialising with new people, though that is something I would like to improve upon including my communication skills which are deficient.<br><br>
+I like the good company of friends and family I have, enjoying every moment spent with them.<br><br>
+I’m a master procrastinator and like to do things my way often paying less attention to what other people say, I have learnt many things that way by just being wrong although that might not be the best practice to learn as I have recently experienced.<br><br>
+The thing that sometimes makes me despise myself is how mediocre I am at everything, I’m good at many things but not great at anything.<br><br>
+I have a lot to learn in life and I’m eager to learn and have one big goal to be a better version of myself every passing moment.<br><br>
+That pretty much sums up how much I know myself, now you know me as well as I know myself.
+
+                
+                </p>
+            </div>
+        <!--</main>-->
+        </main>
+        <div style="clear:both; display:block;"></div>
+           
+        
+        
+        <footer>
+            <div id="copyright">
+                &copy; Aniruddha Chauhan
+            </div>
+            <div id="social">
+                <a href="https://www.facebook.com/Anni511" target="_blank"><img src="facebooksnip.PNG" height="30px" width="30px"/></a><!--FACEBOOK-->
+                <a href="https://mail.google.com/mail/?view=cm&fs=1&to=aniruddhac7@gmail.com" target="_blank"><img src="mailsnip.PNG" height="30px" width="30px"/></a><!--MAIL-->
+                <a href="https://twitter.com/Anni_511" target="_blank"><img src="twittersnip.PNG" height="30px" width="30px"/></a>
+            </div>
+        </footer>
+        
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+     
+            <script>
+        $(window).scroll(function() {
+
+    if ($(this).scrollTop()>0)
+     {
+        $('.fade').fadeOut();
+     }
+    else
+     {
+      $('.fade').fadeIn();
+     }
+ });
+        </script>
+
+            
+        <script>function sticky_relocate() {
+    var window_top = $(window).scrollTop();
+    var div_top = $('#stickontop').offset().top;
+    if (window_top > div_top) {
+        $('#sticky').addClass('stick');
+    } else {
+        $('#sticky').removeClass('stick');
+    }
+}
+
+$(function () {
+    $(window).scroll(sticky_relocate);
+    sticky_relocate();
+});</script>
+        
+        
+        
+    </body>
+</html>
